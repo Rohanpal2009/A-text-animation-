@@ -1,6 +1,6 @@
 import string
 import time
-text = "hello world i ama boy"
+text = "hello world i am a coder!"
 temp = ""
 for ch in text:
     for i in string.printable:
@@ -12,3 +12,4 @@ for ch in text:
         else:
             time.sleep(0.02)
             print(temp+i)
+
